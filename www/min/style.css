@@ -411,6 +411,9 @@ nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
     width:2px;
 
 }
+a.capitalize {
+    text-transform: capitalize;
+}
 /*.menu table td,th{*/
 /*padding:30px;*/
 /*}*/
