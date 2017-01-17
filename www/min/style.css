@@ -265,52 +265,6 @@ footer.page-footer {
 }
 
 
-/* VANYUTH : BEGIN */
-div.rw-third-section div.promo p {
-    text-align: justify !important;
-}
-div.rw-third-section div.promo {
-    padding: 20px 20px !important;
-}
-/*
-div.rw-third-section div.promo p {
-    padding: 0 20px !important;
-}
-*/
-div.rw-third-section div.promo .promo-caption {
-    color: #08365f;
-}
-
-div.rw-third-section div.promo .btn-view-job {
-    background-color: #08365f;
-    margin-top: 30px;
-}
-/* Navigation Bar Stype : BEGIN */
-.navbar-fixed, .navbar-fixed > nav.default_color
-{
-    height: 100px !important;
-}
-nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
-    line-height: 100px !important;
-}
-
-.navbar-fixed #nav_f a#logo-container
-{
-    position: relative;
-    vertical-align: middle;
-}
-/*
-.navbar-fixed #nav_f > div.container
-{
-    background-color: yellow !important;
-}
-*/
-.navbar-fixed #nav_f .button-collapse
-{
-    color: #003660;
-}
-/* Navigation Bar Stype : END */
-/* VANYUTH : END */
 
 
 
@@ -348,3 +302,22 @@ nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
     color: #f39c12;
 }
 
+/*MENU SYTLE*/
+
+.menu{
+    background-color: rgb(10,55,94);
+    padding:30px;
+
+}
+.red-box{
+
+    background-color: #4075ce;
+    height:35px;
+    width:2px;
+
+}
+/*.menu table td,th{*/
+/*padding:30px;*/
+/*}*/
+
+/*END MENU STYEL*/
