@@ -269,17 +269,17 @@ footer.page-footer {
 /* 5 SECTION BEGIN */
 .st-iconbox.style-1 .box-image .box-icon {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-    border: 2px solid #1564a2;
+    border: 4px solid #1564a2;
     border-radius: 50%;
     box-sizing: border-box;
     color: #fff;
     display: block;
     font-size: 3em;
-    height: 105px;
+    height: 140px;
     line-height: 101px;
     position: relative;
     transition: all 0.2s linear 0s;
-    width: 105px;
+    width: 140px;
 }
 .st-iconbox.style-1 .box-image {
     display: inline-block;
@@ -310,6 +310,7 @@ element.style {
 .iconbox-container
 {
     text-align: center;
+    color: white;
 }
 /* 5 SECTION END */
 div.rw-third-section div.promo p {
@@ -317,6 +318,9 @@ div.rw-third-section div.promo p {
 }
 div.rw-third-section div.promo {
     padding: 20px 20px !important;
+}
+div.rw-third-section div.promo > img{
+    display: initial;
 }
 /*
 div.rw-third-section div.promo p {
