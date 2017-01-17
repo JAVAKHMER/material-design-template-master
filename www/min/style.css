@@ -263,3 +263,24 @@ nav a.button-collapse {
 footer.page-footer {
     margin-top: 0px !important;
 }
+/* VANYUTH : BEGIN */
+div.rw-third-section div.promo p {
+    text-align: justify !important;
+}
+div.rw-third-section div.promo {
+    padding: 20px 20px !important;
+}
+/*
+div.rw-third-section div.promo p {
+    padding: 0 20px !important;
+}
+*/
+div.rw-third-section div.promo .promo-caption {
+    color: #08365f;
+}
+
+div.rw-third-section div.promo .btn-view-job {
+    background-color: #08365f;
+    margin-top: 30px;
+}
+/* VANYUTH : END */
