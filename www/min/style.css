@@ -464,8 +464,16 @@ nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
 a.capitalize {
     text-transform: capitalize;
 }
-/*.menu table td,th{*/
-/*padding:30px;*/
-/*}*/
-
 /*END MENU STYEL*/
+
+/*Circle Of Service Style*/
+
+.cirle-of-service{
+    background-color: #FFFFFF;
+    padding:30px;
+    display: table;
+    width: 100%;
+}
+
+
+/*End Circle Of Service Style*/
