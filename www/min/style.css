@@ -266,6 +266,52 @@ footer.page-footer {
 
 
 /* VANYUTH : BEGIN */
+/* 5 SECTION BEGIN */
+.st-iconbox.style-1 .box-image .box-icon {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 2px solid #1564a2;
+    border-radius: 50%;
+    box-sizing: border-box;
+    color: #fff;
+    display: block;
+    font-size: 3em;
+    height: 105px;
+    line-height: 101px;
+    position: relative;
+    transition: all 0.2s linear 0s;
+    width: 105px;
+}
+.st-iconbox.style-1 .box-image {
+    display: inline-block;
+    margin: 0 auto 30px;
+    position: relative;
+    text-align: center;
+}
+/*
+element.style {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+*/
+.st-iconbox.style-1 .box-image > span.box-icon{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.st-iconbox.style-1 .box-image:hover .box-icon {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border-color: #0eb9d9;
+    color: #0eb9d9;
+    transition: all 0.2s linear 0s;
+}
+.iconbox-container
+{
+    text-align: center;
+}
+/* 5 SECTION END */
 div.rw-third-section div.promo p {
     text-align: justify !important;
 }
