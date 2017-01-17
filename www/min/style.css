@@ -397,3 +397,22 @@ nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
     color: #f39c12;
 }
 
+/*MENU SYTLE*/
+
+.menu{
+    background-color: rgb(10,55,94);
+    padding:30px;
+
+}
+.red-box{
+
+    background-color: #4075ce;
+    height:35px;
+    width:2px;
+
+}
+/*.menu table td,th{*/
+/*padding:30px;*/
+/*}*/
+
+/*END MENU STYEL*/
