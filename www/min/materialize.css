@@ -1670,7 +1670,7 @@ body {
  * and Firefox.
  * Correct `block` display not defined for `main` in IE 11.
  */
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
   display: block; }
 
 /**
@@ -2095,7 +2095,7 @@ img.responsive-img, video.responsive-video {
 .slider-animation{
   position: relative;
   overflow: hidden;
-  height:500px;
+  /*height:500px;*/
   margin-top: -50px;
 }
 .parallax {
