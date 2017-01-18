@@ -221,6 +221,13 @@ nav ul a {
     }
 }
 
+@media screen and (max-width: 768px) {
+    div.container > div.search-content > div
+    {
+        margin-bottom: 20px;
+    }
+}
+
 input, textarea {
     border-bottom: 1px solid #fff;
 }
