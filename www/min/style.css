@@ -283,7 +283,7 @@ footer.page-footer {
 }
 .st-iconbox.style-1 .box-image {
     display: inline-block;
-    margin: 0 auto 30px;
+    margin: 0 auto 5px;
     position: relative;
     text-align: center;
 }
@@ -312,9 +312,17 @@ element.style {
     text-align: center;
     color: white;
 }
+.iconbox-container > div.box-content > div {
+    color: #7b8798;
+}
+.section5-column
+{
+    margin-bottom: 20px;
+}
 /* 5 SECTION END */
 div.rw-third-section div.promo p {
     text-align: justify !important;
+    color: #bbbbbb;
 }
 div.rw-third-section div.promo {
     padding: 20px 20px !important;
@@ -329,6 +337,7 @@ div.rw-third-section div.promo p {
 */
 div.rw-third-section div.promo .promo-caption {
     color: #08365f;
+    font-size: 16px;
 }
 
 div.rw-third-section div.promo .btn-view-job {
@@ -357,6 +366,12 @@ div.rw-third-section div.feature-job > h3
 div.rw-third-section div.feature-job > div.table-cell > .table-cell-title
 {
     color: #2f2f2f;
+}
+div.rw-third-section div.feature-job > div.table-cell > p
+{
+    color: #9b9b9b;
+    font-size: 11px;
+    margin-bottom: 0px !important;
 }
 div.rw-third-section div.feature-job > div.table-cell-bottom
 {
@@ -407,6 +422,12 @@ nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
 .navbar-fixed #nav_f .button-collapse
 {
     color: #003660;
+}
+.hide-on-med-and-down > li > a, .side-nav > li > a
+{
+    font-size: 15px;
+    font-weight:  bold;
+    color: #2f4461;
 }
 /* Navigation Bar Stype : END */
 /* VANYUTH : END */
