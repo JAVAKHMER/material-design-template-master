@@ -266,6 +266,17 @@ footer.page-footer {
 
 
 /* VANYUTH : BEGIN */
+a.left-carousel, a.right-carousel{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+i.angle-button
+{
+    font-size: 80px;
+}
+
 /* 5 SECTION BEGIN */
 .st-iconbox.style-1 .box-image .box-icon {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
@@ -329,6 +340,7 @@ div.rw-third-section div.promo {
 }
 div.rw-third-section div.promo > img{
     display: initial;
+    margin-bottom: 20px;
 }
 /*
 div.rw-third-section div.promo p {
@@ -338,6 +350,7 @@ div.rw-third-section div.promo p {
 div.rw-third-section div.promo .promo-caption {
     color: #08365f;
     font-size: 16px;
+    margin-bottom: 20px;
 }
 
 div.rw-third-section div.promo .btn-view-job {
