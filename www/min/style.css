@@ -234,7 +234,7 @@ nav ul a {
 @media screen and (max-width: 768px) {
     div.white-text > div.container > div.search-content .button-search
     {
-        margin-left: -15px;
+        margin-left: 0px !important;
     }
 }
 
