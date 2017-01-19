@@ -221,10 +221,20 @@ nav ul a {
     }
 }
 
-@media screen and (max-width: 768px) {
-    div.container > div.search-content > div
+@media screen and (max-width: 1200px) {
+    div.white-text > div.container > div.search-content > div > div
     {
         margin-bottom: 20px;
+    }
+    div.white-text > div.container > div.search-content .search-content-button
+    {
+        margin-left: -18px;
+    }
+}
+@media screen and (max-width: 768px) {
+    div.white-text > div.container > div.search-content .button-search
+    {
+        margin-left: -15px;
     }
 }
 
