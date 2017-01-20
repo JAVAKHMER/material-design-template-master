@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--ng-app angularJs-->
-<html lang="en" ng-app="myapp">
+<html lang="en" ng-app="myApp">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -18,7 +18,6 @@
     <link href="font-awesome-4-7-0/css/font-awesome.min.css" rel="stylesheet">
     <script src="min/plugin-min.js"></script>
     <script src="min/custom-min.js"></script>
-    <!--<script src="min/isteven-multi-select.js"></script>-->
     <style>
         .carousel-inner > .item > img,
         .carousel-inner > .item > a > img {
@@ -28,8 +27,10 @@
     </style>
     <script src="static/lib/angular/angular.min.js"></script>
     <script src="static/js/controllers.js"></script>
+    <script src="isteven-multi-select-4.0.0.js"></script>
+    <link href="isteven-multi-select-4.0.0.css" rel="stylesheet">
 </head>
-<body id="top" class="scrollspy" ng-controller="mycontroller">
+<body id="top" class="scrollspy">
 
 <!-- Pre Loader -->
 <div id="loader-wrapper">
@@ -149,28 +150,22 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="inner-addon left-addon">
-                        <!--<isteven-multi-select-->
-                                <!--input-model="filter.data.types.all"-->
-                                <!--output-model="filter.data.types.selected"-->
-                                <!--button-label="title"-->
-                                <!--item-label="title"-->
-                                <!--tick-property="ticked"-->
-                                <!--selection-mode="single"-->
-                                <!--translation="{nothingSelected: 'Select Job Type', selectAll: 'Select All', selectNone: 'Select None', reset: 'Reset', search: 'Search Job Type...'}"-->
-                        <!--&gt;-->
-                        <!--</isteven-multi-select>-->
-                        <div class="dropdown">
-                        <a class="btn btn-default dropdown-toggle grey-text capitalize" type="button" data-toggle="dropdown" style="background-color: transparent;"><i class="fa fa-briefcase" aria-hidden="true"></i>  All Job Type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                        <li><a href="#">HTML</a></li>
-                        <li><a href="#">CSS</a></li>
-                        <li><a href="#">JavaScript</a></li>
-                        </ul>
+
+                        <div ng-controller="myController">
+                            <div isteven-multi-select
+                                 input-model="allJobType"
+                                 output-model="newArray"
+                                 button-label="icon name"
+                                 item-label="icon name maker"
+                                 tick-property="ticked"
+                                 translation="{nothingSelected: 'All Job Type',selectAll:'Select All', selectNone: 'Select None', reset: 'Reset', search: 'Search Job type...'}"
+                            >
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-1 col-md-5 col-sm-5 search-content-button button-search" style="margin-right: 10px">
+                <div class="col-lg-1 col-md-5 col-sm-5 search-content-button button-search"
+                     style="margin-right: 10px">
                     <div class="inner-addon left-addon">
                         <a type="button" class="btn btn-default capitalize"
                            style="background-color: #e4672e;color: white;">Search</a>
@@ -219,8 +214,10 @@
                     <!-- <i class="mdi-image-flash-on"></i> -->
                     <img src="img/Material%20Handling.png" class="img-responsive"/>
                     <h5 class="promo-caption">MATERIAL HANDLING</h5>
-                    <p class="light center">Contract and permanent I.T. Positions including Project Management, Software
-                        / Web Development, Business Analysis, Database Administrators, Technology Architects, Help Desk,
+                    <p class="light center">Contract and permanent I.T. Positions including Project Management,
+                        Software
+                        / Web Development, Business Analysis, Database Administrators, Technology Architects, Help
+                        Desk,
                         and more.</p>
                     <button type="button" class="btn btn-primary btn-view-job">View Jobs</button>
                 </div>
@@ -229,8 +226,10 @@
                 <div class="center promo promo-example">
                     <img src="img/professional_service.png" class="img-responsive"/>
                     <h5 class="promo-caption">PROFESSIONAL SERVICES</h5>
-                    <p class="light center">Contract and permanent I.T. Positions including Project Management, Software
-                        / Web Development, Business Analysis, Database Administrators, Technology Architects, Help Desk,
+                    <p class="light center">Contract and permanent I.T. Positions including Project Management,
+                        Software
+                        / Web Development, Business Analysis, Database Administrators, Technology Architects, Help
+                        Desk,
                         and more.</p>
                     <button type="button" class="btn btn-primary btn-view-job">View Jobs</button>
                 </div>
@@ -239,8 +238,10 @@
                 <div class="center promo promo-example">
                     <img src="img/it%20&%20financial.png" class="img-responsive"/>
                     <h5 class="promo-caption">IT & FINANCIAL SERVICES</h5>
-                    <p class="light center">Contract and permanent I.T. Positions including Project Management, Software
-                        / Web Development, Business Analysis, Database Administrators, Technology Architects, Help Desk,
+                    <p class="light center">Contract and permanent I.T. Positions including Project Management,
+                        Software
+                        / Web Development, Business Analysis, Database Administrators, Technology Architects, Help
+                        Desk,
                         and more.</p>
                     <button type="button" class="btn btn-primary btn-view-job">View Jobs</button>
                 </div>
@@ -268,7 +269,8 @@
                     </div>
                     <div class="table-cell-bottom">
                         <div class="table-cell-bottom-content">
-                            <button type="button" class="btn btn-primary btn-view-job btn-view-all">View All</button>
+                            <button type="button" class="btn btn-primary btn-view-job btn-view-all">View All
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -327,7 +329,8 @@
                         </div>
                         <div class="box-content">
                             <h4>Working at IMI Global</h4>
-                            <div>Thinking about a rewarding career in recruiting and client service? Learn more about
+                            <div>Thinking about a rewarding career in recruiting and client service? Learn more
+                                about
                                 working at IMI GLOBAL
                             </div>
                         </div>
@@ -348,7 +351,8 @@
     <div class="container" style="display: table-cell; vertical-align: middle; text-align: center;">
         <div class="col-lg-12 col-md-12 col-sm-12" style="margin-right: -50px; padding-top: 10px">
             Circle of Service
-            <button type="button" class="btn btn-primary btn-view-job btn-view-all" style="background-color: #0d2f54">
+            <button type="button" class="btn btn-primary btn-view-job btn-view-all"
+                    style="background-color: #0d2f54">
                 APPLY NOW
             </button>
         </div>
