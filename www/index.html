@@ -113,7 +113,7 @@
 <!--END SLIDER-->
 
 <!--PANHARITH: MENU-->
-<form ng-submit="submitForm()">{% csrf_token %}
+<form ng-submit="submitForm()">
     <div class="menu white-text">
         <div class="container">
             <div class="search-content" style="margin-top: 5px; font-family: HelveticaNeue">
@@ -157,7 +157,7 @@
                             <div >
                                 <div isteven-multi-select
                                      input-model="allJobType"
-                                     output-model="newArray"
+                                     output-model="typeSelected"
                                      button-label="icon name"
                                      item-label="icon name maker"
                                      tick-property="ticked"
