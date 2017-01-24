@@ -9,12 +9,12 @@ app.config(['$interpolateProvider', '$httpProvider', '$locationProvider',
 ]);
 app.controller('myController', ['$scope', '$http', '$window', function ($scope, $http, $window) {
     $scope.allJobType = [
-        {name: 'Temp to Direct',id:'1'},
-        {name: 'Temp/Full Time',id:'2'},
-        {name: 'Internship',id:'3'},
-        {name: 'Part Time',id:'4'},
-        {name: 'Freelance',id:'5'},
-        {name: 'Full Time',id:'6'},
+        {name: 'Full Time',id:'1'},
+        {name: 'Freelance',id:'2'},
+        {name: 'Part Time',id:'3'},
+        {name: 'Internship',id:'4'},
+        {name: 'Temp/Full Time',id:'5'},
+        {name: 'Temp to Direct',id:'6'},
     ];
     $scope.typeSelected = [];
 
