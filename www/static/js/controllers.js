@@ -32,11 +32,11 @@ app.controller('myController', ['$scope', '$http', '$window', function ($scope, 
     $scope.submitForm = function () {
         // console.log("it work" + $scope.newArray.toString());
         // $window.location.href = 'http://192.168.2.98:9000/name='+$scope.newArray[0].name;
-        $window.location.href = 'http://localhost:8000/jobs/#/?'+$scope.typeSelected[0].id;
+        $window.location.href = 'http://localhost:8000/jobs/#/?type_id='+$scope.typeSelected[0].id;
     }
 
 }]);
-//panharith
+//panharith huot
 //
 // var app = angular.module('myapp',[]);
 // app.config(['$interpolateProvider','$httpProvider',
